@@ -1,0 +1,231 @@
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(45deg, #8d8470, #e28959, #569fff, #d5c642, #d457bb); */
+    /* background: linear-gradient(45deg, #FF5733, #33FF57); */
+    /* background: linear-gradient(90deg, #80CCFF, #FFD700); */
+    /* background: radial-gradient(circle, #FFD700, #FFA500, #FF6347); */
+    /* background: linear-gradient(to right, #FF9A8B, #FFC19E, #FDD2A4, #FFD69F); */
+    background: linear-gradient(45deg, #FFC3A0, #FF677D, #C56CD6, #6A82AB);
+
+    /* background: #FEC5481A; */
+}
+
+nav{
+display: flex;
+width: 84%;
+margin: auto;
+padding: 20px 0;
+align-items: center;
+justify-content:space-between ;
+}
+
+/* nav img{
+    po ;
+} */
+
+.navbar-image {
+    border-radius: 60%;
+    width: 50px; /* Adjust the width to your preference */
+  height: 50px;
+  }
+
+nav ul li{
+    display:inline-block ;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.detail{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    font-size: larger;
+}
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .boy{
+    left: 45%;
+}
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box{
+    width :27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 1rem solid #ec0f0f;
+    position: relative;
+}
+
+.education .box-container .box span {
+    font-size: 1.3rem;
+    background: #222;
+    color:blue;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 2rem;
+    color:#C56CD6;
+    padding-top:1.5rem ;
+}
+
+.education .box-container .box p{
+    font-size: 2rem;
+    color:#C56CD6;
+    padding-top:1.5rem ;
+}
+
+.educationn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+    background-color: #FEC5481A;
+}
+
+.educationn .conatiner{
+    padding-top: 90px;
+}
+.educationn .educationn-row{
+    display:flex;
+    /* flex-wrap:wrap; */
+    gap: 5rem;
+    
+}
+
+.educationn-row .educationn-column{
+    flex: 1 1 40rem;
+
+}
+
+.educationn-column .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.educationn-column .educationn-box{
+    border-left: .2rem solid red;
+}
+
+.educationn-box .educationn-content{
+    position: relative;
+    padding-left: 2rem;
+}
+
+.educationn-box .educationn-content::before {
+position: absolute;
+content: '';
+top:0.1 ;
+left: -1.1rem;
+width: 2rem;
+height: 2rem;
+background-color: #C56CD6;
+border-radius: 50%;
+}
+
+.educationn-content .content{
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid green;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+  
+}
+
+.educationn-content .content .year{
+font-size: 1.5rem;
+color: #C56CD6;
+padding-bottom: .5rem;
+}
+
+.educationn-content .content .year svg{
+padding-right: .5rem;
+}
+
+.educationn-content .content h3{
+    font-size: 2rem;
+}
+
+.educationn-content .content p{
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}
+
+/* body {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(237, 249, 254);
+    color: rgb(0, 28, 85);
+    display: flex;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    transition: all 0.25s linear 0s;
+} */

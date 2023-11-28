@@ -1,0 +1,58 @@
+
+<!-- 
+    - #HEADER
+  -->
+
+  <nav class="header background-color" style="background-color: #FEC5481A;" data-header>
+    <div class="container">
+
+      <a routerLink="/splash" class="logo" >
+        <!-- <img src="assets/images/logo.svg" width="151" height="28" alt="Jassa home"> -->
+         Anand V 
+
+      </a>
+
+      <nav class="navbar" data-navbar [ngClass]="status ? 'active' : ''">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a routerLink="/home" class="label-lg navbar-link has-after" routerLinkActive="active" (click)="addToggle()">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a routerLink="/service"  class="label-lg navbar-link has-after" routerLinkActive="active" (click)="addToggle()">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a routerLink="/education"  class="label-lg navbar-link has-after" routerLinkActive="active" (click)="addToggle()">Education</a>
+          </li>
+
+          <li class="navbar-item">
+            <a routerLink="/contact"  class="label-lg navbar-link has-after" routerLinkActive="active" (click)="addToggle()">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!-- <a routerLink="/contact" class="btn btn-primary">Contact Now</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler (click)="addToggle()">
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button> -->
+
+      <img
+      src="../../assets/images/anand.png" class="profile-image"
+        alt="Profile Picture" 
+         style="border-radius: 50%;     max-width: 48px;
+         position: relative;"  >
+
+ <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler (click)="addToggle()">
+  <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+</button>
+
+    </div>
+  </nav>
+
+
+
+

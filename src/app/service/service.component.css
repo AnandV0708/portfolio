@@ -1,0 +1,21 @@
+
+.logo-name {
+ 
+    font-weight: 70;
+    padding: 0 10px;
+}
+:host {
+    display: block;
+    padding-top: 80px; 
+  }
+
+  @media (max-width: 728px) {
+    .logo-name {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+  
+    :host {
+      padding-top: 72px; /* Adjust top padding for smaller screens */
+    }
+  }
